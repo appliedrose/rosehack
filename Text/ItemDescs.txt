@@ -1,0 +1,20 @@
+## DDust ^
+A powder of pure magic essence.[N]
++2 Magic when used.[X]
+
+## UDust 
+Raises magic by 2.[X]
+
+## DRing ^
+A ring of unrivaled power.[N]
++2 Strength when used.[X]
+
+## URing
+Raises strength by 2.[X]
+
+## DIcon ^
+A statue "blessed" by a false god.[N]
++4 Luck when used.[X]
+
+## UIcon
+Raises Luck by 4.[X]

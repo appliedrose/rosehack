@@ -1,0 +1,147 @@
+//StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB)
+//GrowthBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB)
+//(-1), not -1
+
+ALIGN 4
+BigIronBoost:
+StatBonus(0,9,4,18,20,7,4,10,0,0)
+
+ALIGN 4
+DragonpikeBoost:
+StatBonus(0,0,0,0,0,3,0,0,0,0)
+
+ALIGN 4
+SDarkBoost:
+StatBonus(0,17,0,7,2,1,5,(-6),0,2)
+
+ALIGN 4
+MementoBoost:
+StatBonus(0,0,0,0,0,0,0,10,0,0)
+
+ALIGN 4
+AspectBoost:
+StatBonus(0,0,0,70,30,15,15,15,0,0)
+
+ALIGN 4
+PhalanotisBoost:
+StatBonus(0,0,0,50,0,0,0,0,0,0)
+
+ALIGN 4
+NuiusseonBoost:
+StatBonus(0,0,0,10,0,0,0,10,0,0)
+
+ALIGN 4
+IneubrenosBoost:
+StatBonus(0,0,0,0,10,0,0,10,0,0)
+
+ALIGN 4
+EmptyBoost:
+StatBonus(0,0,0,0,0,0,0,0,0,0)
+
+ALIGN 4
+HolyBrandBoost:
+StatBonus(0,0,3,3,3,3,3,3,0,0)
+
+ALIGN 4
+SeraphRobeBoost:
+StatBonus(5,0,0,0,0,0,0,0,0,0)
+
+ALIGN 4
+EnergyRingBoost:
+StatBonus(0,2,0,0,0,0,0,0,0,0)
+
+ALIGN 4
+SpiritDustBoost:
+StatBonus(0,0,2,0,0,0,0,0,0,0)
+
+ALIGN 4
+SecretBookBoost:
+StatBonus(0,0,0,3,0,0,0,0,0,0)
+
+ALIGN 4
+SpeedwingsBoost:
+StatBonus(0,0,0,0,2,0,0,0,0,0)
+
+ALIGN 4
+DracoshieldBoost:
+StatBonus(0,0,0,0,0,2,0,0,0,0)
+
+ALIGN 4
+TalismanBoost:
+StatBonus(0,0,0,0,0,0,3,0,0,0)
+
+ALIGN 4
+FalseIdolBoost:
+StatBonus(0,0,0,0,0,0,0,4,0,0)
+
+ALIGN 4
+BootsBoost:
+StatBonus(0,0,0,0,0,0,0,0,2,0)
+
+ALIGN 4
+BodyRingBoost:
+StatBonus(0,0,0,0,0,0,0,0,0,2)
+
+ALIGN 4
+BlackLotusBoost:
+StatBonus(1,1,1,1,1,1,1,1,0,0)
+
+ALIGN 4
+ArkhinalBoost:
+StatBonus(0,10,0,10,0,0,0,0,0,0)
+
+ALIGN 4
+ArkhinalHandleBoost:
+StatBonus(0,3,0,3,0,0,0,0,0,0)
+
+ALIGN 4
+OpistusBoost:
+StatBonus(0,0,0,0,0,5,5,10,0,0)
+
+ALIGN 4
+AntimageBoost:
+StatBonus(0,0,0,0,0,0,5,0,0,0)
+
+ALIGN 4
+HereticAxeBoost:
+StatBonus(0,0,0,0,0,0,15,0,0,0)
+
+ALIGN 4
+FlameSwordBoost:
+StatBonus(0,0,5,0,0,0,0,0,0,0)
+
+ALIGN 4
+AvalonBoost:
+StatBonus(0,0,5,5,0,5,5,5,0,0)
+
+ALIGN 4
+LegRingBoost:
+StatBonus(0,0,0,0,0,0,0,0,1,0)
+
+ALIGN 4
+HoneyCharmBoost:
+GrowthBonus(0,0,0,30,0,0,0,30)
+
+ALIGN 4
+AnkleWeightBoost:
+GrowthBonus(0,50,0,10,0xf1,0xf1,0xf1,0)
+
+ALIGN 4
+FoggyGlassesBoost:
+GrowthBonus(0,0,50,0xe2,0xec,0,0,0)
+
+ALIGN 4
+MercuryBootsBoost:
+GrowthBonus(0xf6,0xf6,0xf6,10,50,0xf6,0xf6,0)
+
+ALIGN 4
+LiveGooseBoost:
+GrowthBonus(70,0,0,0xf6,0xf6,0,0,0xec)
+
+ALIGN 4
+WardwoodBoost:
+GrowthBonus(0xf6,0xf6,0xf6,0xf6,0xf6,40,40,0)
+
+ALIGN 4
+FireEmblemBoost:
+GrowthBonus(50,50,50,50,50,50,50,50)
