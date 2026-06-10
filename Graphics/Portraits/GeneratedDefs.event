@@ -1,0 +1,5 @@
+#ifndef CaenisMug
+  #define CaenisMug (FirstMugID+0)
+#endif
+
+

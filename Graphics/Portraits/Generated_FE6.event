@@ -1,0 +1,16 @@
+//Generated! Do not edit!
+
+PUSH
+MugEntry(CaenisMug, CaenisMugData, CaenisMinimugData, CaenisPaletteData,  3, 4, 3, 2)
+POP
+
+
+ALIGN 4
+CaenisMugData:
+#incbin "png/Caenis/Caenis_portrait_frames_fe6.dmp"
+ALIGN 4
+CaenisPaletteData:
+#incbin "png/Caenis/Caenis_palette.dmp"
+CaenisMinimugData:
+#incbin "png/Caenis/Caenis_minimugfe6.dmp"
+

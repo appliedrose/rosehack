@@ -1,0 +1,106 @@
+
+// For overriding character portraits
+//#include "PortraitDefs.event"
+
+#ifdef _FE6_ 
+#define MugEntry(mugID, mug, minimug, palette, mouthX, mouthY, eyeX, eyeY)"ORG NewPortraitTable+mugID*0x10; POIN mug; POIN minimug; POIN palette; BYTE mouthX mouthY eyeX eyeY; "
+#define MugEntry(mug, minimug, palette, mouthX, mouthY, eyeX, eyeY)"POIN mug; POIN minimug; POIN palette; BYTE mouthX mouthY eyeX eyeY; "
+#else 
+#define MugEntry(mugID, mug, minimug, frames, palette, mouthX, mouthY, eyeX, eyeY)"ORG NewPortraitTable+mugID*0x1C; POIN mug; POIN minimug; POIN palette; POIN frames; BYTE 0 0 0 0; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; "
+#define MugEntry(mug, minimug, frames, palette, mouthX, mouthY, eyeX, eyeY)"POIN mug; POIN minimug; POIN palette; POIN frames; BYTE 0 0 0 0; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; "
+#endif 
+
+// #define FirstMugID 0xAC
+#define FirstMugID 0x101
+
+
+// Vanilla portraits that need minimugs added 
+#ifdef _FE6_ 
+#define EliwoodFE6Mug 0x56
+#define HectorFE6Mug 0x58
+#endif 
+#ifdef _FE7_ 
+#define UtherMug 0x4E 
+#define LeilaMug 0x57 
+#define EleanoraMug 0x4c
+#define ElbertMug 0x4f
+#define BramimondMug 0x5c 
+#endif 
+
+
+#ifdef _FE8_ 
+#define DaraMug 0x55 
+#define KlimtMug 0x54 
+#define MessengerFE8Mug 0x69 
+#endif 
+
+#include "GeneratedDefs.event" 
+
+// #define HidePortraitTable // obscure from Febuilder 
+
+#define PortraitTableMaxEntries 2000
+
+
+MESSAGE Portraits start at CURRENTOFFSET
+ALIGN 4 
+NewPortraitTable: 
+#undef PortraitTable 
+#define PortraitTable NewPortraitTable 
+
+#ifdef MAKE_CACHE_ROM
+    FILL(0x1C*PortraitTableMaxEntries) 0 
+    ORG NewPortraitTable 
+    #include "VanillaData.event" 
+    // #include "VanillaData.event" 
+#endif 
+
+
+ORG NewPortraitTable + (0x1C*PortraitTableMaxEntries)
+
+
+#ifdef MAKE_CACHE_ROM
+
+    ALIGN 4 
+    #ifdef _FE6_ 
+        #include "Generated_FE6.event" 
+    #else 
+        #include "Generated.event" 
+    #endif 
+    MESSAGE Portraits end at CURRENTOFFSET
+#endif 
+
+PUSH 
+#ifdef _FE8_
+    ORG $5524 
+#endif
+
+#ifdef _FE7_
+    #ifdef HidePortraitTable 
+    ORG $6B28
+    SHORT $4900 
+    SHORT $e001 
+    POIN NewPortraitTable 
+    SHORT $1840 
+    SHORT $4770 
+    ORG $6b2C 
+    #else 
+    ORG $6B30 
+    #endif 
+#endif 
+
+#ifdef _FE6_
+    ORG $7FD8  
+#endif 
+
+POIN NewPortraitTable
+POP 
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+//Generated - do not edit!
+//Copy paste the /* */ section into your definitions if desired.
+ 
+ 
+ 
+/* 
+//First free icon past vanilla is 222 / 0xDE 
+ 
+#define BindingBlade_Icon 222 
+#define BoltLance_Icon 223 
+#define BrassNaginata_Icon 224 
+#define BrassYumi_Icon 225 
+#define DualNaginata_Icon 226 
+#define Eckesachs_Icon 227 
+#define FireEmblemUniverse_Icon 228 
+#define FujinYumi_Icon 229 
+#define GlassAxe_Icon 230 
+#define GlassBow_Icon 231 
+#define GlassLance_Icon 232 
+#define GlassSword_Icon 233 
+#define GuardLance_Icon 234 
+#define HeartSeal_Icon 235 
+#define image_palIcon 236 
+#define IronKatana_Icon 237 
+#define KingSword_Icon 238 
+#define ManiKatti_Icon 239 
+#define OborosNaginata_Icon 240 
+#define PoisonKatana_Icon 241 
+#define RadiantBow_Icon 242 
+#define RegalSword_Icon 243 
+#define Reginleif_Icon 244 
+#define Ring_Icon 245 
+#define RinkahsClub_Icon 246 
+#define SilverKatana_Icon 247 
+#define Starsphere_Icon 248 
+#define SteelKatana_Icon 249 
+#define SuperiorAxe_Icon 250 
+#define Thani_Icon 251 
+#define TitaniasAxe_Icon 252 
+#define WingSpear_Icon 253 
+#define WolfBeil_Icon 254 
+*/ 
+ 
+ 
+ 
+ 
+//Image Data 
+ 
+PUSH 
+ 
+ItemIconEntry(BindingBlade_Icon) 
+#incbin "dmp/BindingBlade_.dmp" 
+ 
+ItemIconEntry(BoltLance_Icon) 
+#incbin "dmp/BoltLance_.dmp" 
+ 
+ItemIconEntry(BrassNaginata_Icon) 
+#incbin "dmp/BrassNaginata_.dmp" 
+ 
+ItemIconEntry(BrassYumi_Icon) 
+#incbin "dmp/BrassYumi_.dmp" 
+ 
+ItemIconEntry(DualNaginata_Icon) 
+#incbin "dmp/DualNaginata_.dmp" 
+ 
+ItemIconEntry(Eckesachs_Icon) 
+#incbin "dmp/Eckesachs_.dmp" 
+ 
+ItemIconEntry(FireEmblemUniverse_Icon) 
+#incbin "dmp/FireEmblemUniverse_.dmp" 
+ 
+ItemIconEntry(FujinYumi_Icon) 
+#incbin "dmp/FujinYumi_.dmp" 
+ 
+ItemIconEntry(GlassAxe_Icon) 
+#incbin "dmp/GlassAxe_.dmp" 
+ 
+ItemIconEntry(GlassBow_Icon) 
+#incbin "dmp/GlassBow_.dmp" 
+ 
+ItemIconEntry(GlassLance_Icon) 
+#incbin "dmp/GlassLance_.dmp" 
+ 
+ItemIconEntry(GlassSword_Icon) 
+#incbin "dmp/GlassSword_.dmp" 
+ 
+ItemIconEntry(GuardLance_Icon) 
+#incbin "dmp/GuardLance_.dmp" 
+ 
+ItemIconEntry(HeartSeal_Icon) 
+#incbin "dmp/HeartSeal_.dmp" 
+ 
+ItemIconEntry(image_palIcon) 
+#incbin "dmp/image_pal.dmp" 
+ 
+ItemIconEntry(IronKatana_Icon) 
+#incbin "dmp/IronKatana_.dmp" 
+ 
+ItemIconEntry(KingSword_Icon) 
+#incbin "dmp/KingSword_.dmp" 
+ 
+ItemIconEntry(ManiKatti_Icon) 
+#incbin "dmp/ManiKatti_.dmp" 
+ 
+ItemIconEntry(OborosNaginata_Icon) 
+#incbin "dmp/OborosNaginata_.dmp" 
+ 
+ItemIconEntry(PoisonKatana_Icon) 
+#incbin "dmp/PoisonKatana_.dmp" 
+ 
+ItemIconEntry(RadiantBow_Icon) 
+#incbin "dmp/RadiantBow_.dmp" 
+ 
+ItemIconEntry(RegalSword_Icon) 
+#incbin "dmp/RegalSword_.dmp" 
+ 
+ItemIconEntry(Reginleif_Icon) 
+#incbin "dmp/Reginleif_.dmp" 
+ 
+ItemIconEntry(Ring_Icon) 
+#incbin "dmp/Ring_.dmp" 
+ 
+ItemIconEntry(RinkahsClub_Icon) 
+#incbin "dmp/RinkahsClub_.dmp" 
+ 
+ItemIconEntry(SilverKatana_Icon) 
+#incbin "dmp/SilverKatana_.dmp" 
+ 
+ItemIconEntry(Starsphere_Icon) 
+#incbin "dmp/Starsphere_.dmp" 
+ 
+ItemIconEntry(SteelKatana_Icon) 
+#incbin "dmp/SteelKatana_.dmp" 
+ 
+ItemIconEntry(SuperiorAxe_Icon) 
+#incbin "dmp/SuperiorAxe_.dmp" 
+ 
+ItemIconEntry(Thani_Icon) 
+#incbin "dmp/Thani_.dmp" 
+ 
+ItemIconEntry(TitaniasAxe_Icon) 
+#incbin "dmp/TitaniasAxe_.dmp" 
+ 
+ItemIconEntry(WingSpear_Icon) 
+#incbin "dmp/WingSpear_.dmp" 
+ 
+ItemIconEntry(WolfBeil_Icon) 
+#incbin "dmp/WolfBeil_.dmp" 
+ 
+POP 
