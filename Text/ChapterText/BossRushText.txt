@@ -1,0 +1,7 @@
+##BossRushTitle
+Rosie Test![X]
+
+##BossRushPlaceholderText
+[MidLeft][LoadCaenis]
+This is Placeholder Text![N]
+[A][X]

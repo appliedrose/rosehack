@@ -207,7 +207,7 @@ HouseEvent:
 LABEL 0
 	// end
 	
-	Text(HouseText)
+	Text(BossRushPlaceholderText)
 	
 	NoFade
 	ENDA

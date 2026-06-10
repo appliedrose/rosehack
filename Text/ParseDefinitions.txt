@@ -60,8 +60,7 @@
 [LoadSelena] = [LoadFace][0x3f][0x1]
 [LoadGerik] = [LoadFace][0x1b][0x1]
 [LoadSaleh] = [LoadFace][0x20][0x1]
-
-
+[LoadCaenis] = [LoadFace][CaenisMug][0x1]
 
 [period] = [0xDE][0x82]
 [dquote] = [0xDE][0x83]
