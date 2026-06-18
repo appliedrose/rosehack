@@ -19,7 +19,7 @@ setText(0x160, NewChName)
 
 ALIGN 4
 NewChName:
-String("Boss Rush")
+String("RosieMap")
 BYTE 0
 
 ALIGN 4

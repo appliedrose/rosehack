@@ -1,7 +1,8 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "CustomDefinitions.event"
-//PROTECT $25224
+        #include "Maps/Definitions.event"
+    //PROTECT $25224
     ORG FreeSpace
         #include "repointedTextTable.event"
 

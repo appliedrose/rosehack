@@ -2,4 +2,8 @@
   #define CaenisMug (FirstMugID+0)
 #endif
 
+#ifndef RyverMug
+  #define RyverMug (FirstMugID+1)
+#endif
+
 

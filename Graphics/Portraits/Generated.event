@@ -1,7 +1,8 @@
 //Generated! Do not edit!
 
 PUSH
-MugEntry(CaenisMug, CaenisMugData, CaenisMinimugData, CaenisFramesData, CaenisPaletteData,  3, 4, 3, 2)
+MugEntry(CaenisMug, CaenisMugData, CaenisMinimugData, CaenisFramesData, CaenisPaletteData,  3, 5, 3, 3)
+MugEntry(RyverMug, RyverMugData, RyverMinimugData, RyverFramesData, RyverPaletteData,  4, 5, 4, 3)
 POP
 
 
@@ -15,4 +16,15 @@ CaenisPaletteData:
 #incbin "png/Caenis/Caenis_palette.dmp"
 CaenisMinimugData:
 #incbin "png/Caenis/Caenis_minimug.dmp"
+
+ALIGN 4
+RyverMugData:
+#incbin "png/Ryver/Ryver_mug.dmp"
+ALIGN 4
+RyverFramesData:
+#incbin "png/Ryver/Ryver_frames.dmp"
+RyverPaletteData:
+#incbin "png/Ryver/Ryver_palette.dmp"
+RyverMinimugData:
+#incbin "png/Ryver/Ryver_minimug.dmp"
 

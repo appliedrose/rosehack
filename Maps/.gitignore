@@ -5,3 +5,7 @@
 # tmx2ea-generated data file
 *.dmp
 
+*.exe
+*.py
+*.md
+*.ico
