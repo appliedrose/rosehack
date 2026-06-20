@@ -1,0 +1,4 @@
+#define FieldsObj 0x1
+#define FieldsPal 0x2
+#define UpdatedVillageObj 0x3
+#define UpdatedVillagePal 0x4

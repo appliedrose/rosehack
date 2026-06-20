@@ -1,2 +1,3 @@
-TestMap2Map
-KaleidoscopeMap
+//Generated. Do not edit!
+Debug2Map
+RosieTestMap

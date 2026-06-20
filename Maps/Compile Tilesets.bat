@@ -1,7 +1,7 @@
 @echo off
 
-@set "Png2Dmp=%~dp0\..\EventAssembler\Tools\Png2Dmp"
-@set "Compress=%~dp0compress_tofile.exe"
+@set "Png2Dmp=%~dp0..\EventAssembler\Tools\Png2Dmp"
+@set "Compress=%~dp0..\EventAssembler\Tools\compress_tofile.exe"
 
 @cd %~dp0/ConfObj
 
@@ -23,7 +23,6 @@
 
 @del "%~dp0ConfObj\*.dmp" 
 
-@call aFogTilesetFilter.bat
 echo Done!
 
 pause

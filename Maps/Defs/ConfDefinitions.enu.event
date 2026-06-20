@@ -1,0 +1,2 @@
+#define FieldsConf 0x1
+#define UpdatedVillageConf 0x2

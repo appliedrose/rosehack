@@ -1,14 +1,18 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "CustomDefinitions.event"
-        #include "Maps/Definitions.event"
+        
     //PROTECT $25224
     ORG FreeSpace
-        #include "repointedTextTable.event"
-
+        
         //Text first for Text ID definitions
+        #include "repointedTextTable.event"
         #include "Text/InstallTextData.event"
         MESSAGE Used text space ends at currentOffset
+
+        //Definitions
+        #include "Maps/MapMacros.event" 
+        #include "Maps/Definitions.event"
 
         //CSV tables
             #include "Tables/StatBoosts.event"
@@ -19,18 +23,21 @@
         #include "EngineHacks/_MasterHackInstaller.event"
         MESSAGE Used hax space ends at currentOffset
 
+        //Maps
+        #include "Maps/MapTables.event"
+        #include "Maps/Master Map Installer.event" //NO SPACESS!!!
+
         //Graphics
         #include "Graphics/GraphicsInstallerPortraits.event"
         MESSAGE Used GFX space ends at currentOffset
 
-    	#ifdef USE_TEST_MAP
         //Events
-            #include "Events/Release_map.event"
-            #include "Events/WorldMapEvents.event"
-
-            //Maps
-            #include "Maps/MasterMapInstaller.event"
-        #endif // USE_TEST_MAP
+        #include "Events/Chapter Events Installer.event"
+    	// #ifdef USE_TEST_MAP
+        // 
+        //     #include "Events/Release_map.event"
+        //     #include "Events/WorldMapEvents.event"
+        // #endif // USE_TEST_MAP
 	//
 	ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
 	

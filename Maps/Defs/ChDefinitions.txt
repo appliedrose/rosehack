@@ -1,2 +1,2 @@
-TestMap2Ch
-KaleidoscopeCh
+Debug2Ch 0
+RosieTestCh

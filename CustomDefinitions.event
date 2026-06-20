@@ -1,7 +1,7 @@
 // #define FreeSpace 0xb2a610
 // #define FreeSpaceEnd 0xC00000
-#define FreeSpace 0x8FE4000
-#define FreeSpaceEnd 0xA000000
+#define FreeSpace 0x9000000
+#define FreeSpaceEnd 0x9FFFFFF
 #define FreeSpaceBLRange 0x81c1ec0
 
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"

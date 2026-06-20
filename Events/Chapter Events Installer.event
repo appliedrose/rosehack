@@ -1,0 +1,21 @@
+//use braces here to avoid name conflicts. If you don't know what that means, surround all #includes in this files in braces like done below.
+
+	//Fixes the world map chapter ID being loaded instead of the actual chapter ID.
+	PUSH
+	ORG 0x897B2
+	BYTE 0x0 0x0 0x0 0x0
+	POP
+
+	//Fixes the game considering some chapters postgame.
+	// This part was not in essential fixes. >:(
+	PUSH 
+	ORG 0x897C4
+	BYTE 0x0E 0x20 0x20 0x56
+	POP
+
+{
+#include "ExampleChapter.event"
+}
+{
+#include "RosieTestChapter.event"
+}

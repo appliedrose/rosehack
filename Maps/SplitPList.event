@@ -1,0 +1,73 @@
+PUSH
+ORG 0x19900
+POIN TileConfigPLIST
+
+ORG 0x19968
+POIN ObjTypePalettePLIST
+
+ORG 0x1999C
+POIN ObjTypePalettePLIST
+
+ORG 0x30134
+POIN TileAnimPLIST
+
+ORG 0x30C78
+POIN TileAnimPLIST
+
+ORG 0x34680
+POIN MapPLIST
+
+ORG 0x346AC
+POIN MapChangesPLIST
+
+ORG 0xB3018
+POIN MapChangesPLIST
+
+ORG 0xC66E8
+POIN MapChangesPLIST
+
+POP
+
+#include "GeneratedInstaller.event" 
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------------Palette-------------------------------
+
+
+
+
+// -------------------------------Tile Anims-------------------------------
+#define ConfAnimsTiles(duration, tileSize, imgPointer) "SHORT duration tileSize; POIN imgPointer"
+
+//<property name="Anims" value="WaterAnimation"/>
+#include "TilesetAnimations/UpdatedVillage/Installer.event"
+TileAnimPointerTable(UpdatedVillageAnimations, UpdatedVillageTilesetAnimation)
+TileAnimPointerTable(5, 0x59D498)
+TileAnimPointerTable(0x12, 0x0859D568)
+TileAnimPointerTable(0x1C, 0x0859D6F8)
+TileAnimPointerTable(0x54, 0x0859D800)
+TileAnimPointerTable(0x7D, 0x0859D678)
+TileAnimPointerTable(0xD3, 0x0859D520)
+
+
+
+
+
+
+
+ALIGN 4
+
+
+//#include "Master Map Installer.event"
+
+
