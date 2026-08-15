@@ -1,0 +1,3 @@
+MaligQueen_Axe Installer.event
+MaligQueen_Handaxe Installer.event
+MaligQueen_Magic Installer.event

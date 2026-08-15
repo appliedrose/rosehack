@@ -1,0 +1,5 @@
+## NMaligQueen
+Malig Queen[X]
+## DMaligQueen
+Fearsome wyvern rider that excels[N]
+in both physical and magical offense.[X]

@@ -14,6 +14,13 @@
         #include "Maps/MapMacros.event" 
         #include "Maps/Definitions.event"
 
+        //Graphics
+        #include "Graphics/GraphicsInstaller.event"
+        MESSAGE Used GFX space ends at currentOffset
+
+        #ifdef EphraimLord_Anim
+            MESSAGE WHY NOT A BRILLIANT BOY
+        #endif
         //CSV tables
             #include "Tables/StatBoosts.event"
         #include "Tables/TableInstaller.event"
@@ -27,9 +34,7 @@
         #include "Maps/MapTables.event"
         #include "Maps/Master Map Installer.event" //NO SPACESS!!!
 
-        //Graphics
-        #include "Graphics/GraphicsInstallerPortraits.event"
-        MESSAGE Used GFX space ends at currentOffset
+        
 
         //Events
         #include "Events/Chapter Events Installer.event"

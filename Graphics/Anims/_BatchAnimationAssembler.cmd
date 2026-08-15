@@ -9,7 +9,7 @@ py .renameThings.py
 @cd %~dp0/png
 
 @for /d %%i in (.\*) do ( 
-@cd %~dp0/png
+@cd "%~dp0/png"
 cd "%%i"  
 cd
 @for /R %%m in (.) do (
@@ -34,7 +34,7 @@ cd
 )
 
 
-@cd %~dp0/event 
+@cd "%~dp0event" 
 
 
 @dir *.event /b > event.txt 
@@ -45,9 +45,9 @@ for /f "tokens=*" %%n in (event.txt) do (
 	@echo { ; #include "event/%%~nn.event" ; } >> GeneratedInstaller.txt
 ) 
 
-@cd %~dp0
+@cd "%~dp0"
 
-type %~dp0event\GeneratedInstaller.txt > %~dp0event\GeneratedInstaller.event
+type "%~dp0event\GeneratedInstaller.txt" > "%~dp0event\GeneratedInstaller.event"
 @copy "%~dp0event\GeneratedInstaller.event" "%~dp0" > nul
 
 @del "%~dp0event\GeneratedInstaller.txt"

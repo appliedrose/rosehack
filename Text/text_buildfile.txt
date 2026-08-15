@@ -85,6 +85,7 @@ by having this unit arrive.[X]
 ## LordMustEscapeLastText
 This unit must escape last.[X]
 
+#include "Classes.txt"
 #include "Items.txt"
 #include "ItemDescs.txt"
 #include "ChapterTextInstaller.event"
