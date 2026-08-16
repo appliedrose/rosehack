@@ -4,10 +4,6 @@ ALIGN 4
 #ifdef _FE8_ 
     #define EphraimLordLance 0x01
     #define EphraimLordUnarmed 0x02
-    #define MaligQueenAxe 0x22
-    #define MaligQueenHandaxe 0x23
-    #define MaligQueenDark 0x24
-    #define MaligQueenUnarmed 0x25
 #endif
 
 ALIGN 4
@@ -22,6 +18,14 @@ MaligQueen_Anim: //usable label
 animEntry(MaligQueenAxe) //default anim
 AxeAnim(MaligQueenAxe)
 HandAxeAnim(MaligQueenHandaxe)
-DarkAnim(MaligQueenDark)
-UnarmedAnim(MaligQueenUnarmed)
+DarkAnim(MaligQueenMagic)
 weaponAnimEnd //ending sequence
+
+ALIGN 4
+
+BowThief_Anim:
+animEntry(BowThiefSword)
+SwordAnim(BowThiefSword)
+BowAnim(BowThiefBow)
+UnarmedAnim(BowThiefUnarmed)
+weaponAnimEnd

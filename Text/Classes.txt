@@ -3,3 +3,15 @@ Malig Queen[X]
 ## DMaligQueen
 Fearsome wyvern rider that excels[N]
 in both physical and magical offense.[X]
+
+## NBowThief
+Thief[X]
+## DBowThief
+Oh you know![N]
+Ashe from 3H![X]
+
+## NTrickster
+Trickster[X]
+## DTrickster
+Tricky Knave.[N]
+Can use magic, bows AND swords[X]

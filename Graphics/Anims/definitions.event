@@ -1,5 +1,12 @@
 // Generated definitions for AnimTableEntries
 
-#define MaligQueenAxe (StartingAnimID+0)
-#define MaligQueenHandaxe (StartingAnimID+1)
-#define MaligQueenMagic (StartingAnimID+2)
+#define BowThiefBow (StartingAnimID+0)
+#define BowThiefSword (StartingAnimID+1)
+#define BowThiefUnarmed (StartingAnimID+2)
+#define MaligQueenAxe (StartingAnimID+3)
+#define MaligQueenHandaxe (StartingAnimID+4)
+#define MaligQueenMagic (StartingAnimID+5)
+#define TricksterBow (StartingAnimID+6)
+#define TricksterMagic (StartingAnimID+7)
+#define TricksterStaff (StartingAnimID+8)
+#define TricksterSword (StartingAnimID+9)

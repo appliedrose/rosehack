@@ -1,3 +1,10 @@
+BowThief_Bow Installer.event
+BowThief_Sword Installer.event
+BowThief_Unarmed Installer.event
 MaligQueen_Axe Installer.event
 MaligQueen_Handaxe Installer.event
 MaligQueen_Magic Installer.event
+Trickster_Bow Installer.event
+Trickster_Magic Installer.event
+Trickster_Staff Installer.event
+Trickster_Sword Installer.event

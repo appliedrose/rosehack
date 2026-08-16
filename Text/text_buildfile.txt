@@ -86,6 +86,7 @@ by having this unit arrive.[X]
 This unit must escape last.[X]
 
 #include "Classes.txt"
+#include "Characters.txt"
 #include "Items.txt"
 #include "ItemDescs.txt"
 #include "ChapterTextInstaller.event"

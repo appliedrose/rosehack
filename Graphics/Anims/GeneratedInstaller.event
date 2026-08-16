@@ -1,5 +1,12 @@
 //Generated - do not edit!
  
+{ ; #include "event/BowThief_Bow Installer.event" ; } 
+{ ; #include "event/BowThief_Sword Installer.event" ; } 
+{ ; #include "event/BowThief_Unarmed Installer.event" ; } 
 { ; #include "event/MaligQueen_Axe Installer.event" ; } 
 { ; #include "event/MaligQueen_Handaxe Installer.event" ; } 
 { ; #include "event/MaligQueen_Magic Installer.event" ; } 
+{ ; #include "event/Trickster_Bow Installer.event" ; } 
+{ ; #include "event/Trickster_Magic Installer.event" ; } 
+{ ; #include "event/Trickster_Staff Installer.event" ; } 
+{ ; #include "event/Trickster_Sword Installer.event" ; } 
