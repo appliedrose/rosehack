@@ -8,6 +8,7 @@
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
 
 #include "Maps/Defs/ChDefinitions.enu.event"
+#include "GlobalConstants/_MasterConstantsInstaller.event"
 
 #ifndef ItemTable
   #define ItemTable 0x809B10

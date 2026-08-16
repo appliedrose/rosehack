@@ -3,8 +3,9 @@
 
 #include "Anims/Installer.event" 
 
+#include "MapSprites/Installer.event"
 //#include "ClassCards/Installer.event" 
-/*#include "MapSprites/Installer.event" 
+/*
 #ifdef _FE8_
     #include "BGs/Installer.event" 
     #else 

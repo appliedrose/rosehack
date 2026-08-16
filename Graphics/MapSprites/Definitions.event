@@ -1,0 +1,16 @@
+//First free SMS is 107
+#define Thief_F_Bow_Alicestand 107 
+#define Trickster_F_StreetHero_Sable_Magestand 108 
+#define Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand 109 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define Thief_F_Bow_Alicewalk BowThief
+#define Trickster_F_StreetHero_Sable_Magewalk Trickster
+#define Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikeswalk MaligQueen
+ 
+//Smaller Names for the CSV
+
+#define BowThiefSMS   Thief_F_Bow_Alicestand
+#define TricksterSMS  Trickster_F_StreetHero_Sable_Magestand
+#define MaligQueenSMS Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand

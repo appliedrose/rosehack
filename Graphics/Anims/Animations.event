@@ -19,13 +19,22 @@ animEntry(MaligQueenAxe) //default anim
 AxeAnim(MaligQueenAxe)
 HandAxeAnim(MaligQueenHandaxe)
 DarkAnim(MaligQueenMagic)
+UnarmedAnim(MaligQueenMagic)
 weaponAnimEnd //ending sequence
 
 ALIGN 4
-
 BowThief_Anim:
-animEntry(BowThiefSword)
+animEntry(BowThiefBow)
 SwordAnim(BowThiefSword)
 BowAnim(BowThiefBow)
 UnarmedAnim(BowThiefUnarmed)
+weaponAnimEnd
+
+ALIGN 4
+Trickster_Anim:
+animEntry(TricksterSword)
+SwordAnim(TricksterSword)
+BowAnim(TricksterBow)
+StaffAnim(TricksterStaff)
+AnimaAnim(TricksterMagic)
 weaponAnimEnd
