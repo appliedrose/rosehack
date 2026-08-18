@@ -1,0 +1,3 @@
+the debugger redefined a function it already uses for whatever reason???
+
+modular stat screen stuff is making me go insane

@@ -43,6 +43,9 @@
         //     #include "Events/Release_map.event"
         //     #include "Events/WorldMapEvents.event"
         // #endif // USE_TEST_MAP
+        #ifdef SkillsDebug
+            MESSAGE TEST SUCCESS BOI
+        #endif
 	//
 	ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
 	

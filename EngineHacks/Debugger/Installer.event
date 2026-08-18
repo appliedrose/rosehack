@@ -160,9 +160,9 @@ FILL(256 * 4)
 ALIGN 4 
 NumberOfPages:
 #ifdef _FE8_ 
-WORD 4
+    WORD 4
 #else 
-WORD 2 
+    WORD 2 
 #endif 
 
 ggDebuggerMenuItems:
@@ -187,62 +187,70 @@ WORD 0 0 0 0 0 0 0 0 0 // terminator
 ALIGN 4 
 gDebuggerMenuItemsPage2: // must be immediately after gDebuggerMenuItems 
 #ifdef _FE8_ 
-MenuCommand1(GodmodeText,GodmodeDesc, NormalText, MenuAlwaysEnabled, GodmodeDrawText, StartGodmodeNow)
-MenuCommand1(ControlAiText,ControlAiDesc, NormalText, MenuAlwaysEnabled, ControlAiDrawText, ControlAiNow)
-MenuCommand1(EditMapText,EditMapDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditMapNow)
-MenuCommand1(EditTrapText,EditTrapDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditTrapNow)
-MenuCommand1(ChStateText,ChStateDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, ChStateNow)
-MenuCommand1(ClearChText,ClearChDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, CallEndEventNow)
-MenuCommand1(LoadUnitsText,LoadUnitsDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, LoadUnitsNow)
-MenuCommand1(GodmodeText,GodmodeDesc, NormalText, MenuAlwaysEnabled, BootmodeDrawText, ToggleBootNow)
+    MenuCommand1(GodmodeText,GodmodeDesc, NormalText, MenuAlwaysEnabled, GodmodeDrawText, StartGodmodeNow)
+    MenuCommand1(ControlAiText,ControlAiDesc, NormalText, MenuAlwaysEnabled, ControlAiDrawText, ControlAiNow)
+    MenuCommand1(EditMapText,EditMapDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditMapNow)
+    MenuCommand1(EditTrapText,EditTrapDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditTrapNow)
+    MenuCommand1(ChStateText,ChStateDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, ChStateNow)
+    MenuCommand1(ClearChText,ClearChDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, CallEndEventNow)
+    MenuCommand1(LoadUnitsText,LoadUnitsDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, LoadUnitsNow)
+    MenuCommand1(GodmodeText,GodmodeDesc, NormalText, MenuAlwaysEnabled, BootmodeDrawText, ToggleBootNow)
 #else 
-MenuCommand1(PromoteCommandText, PromoteDesc, NormalText, CanActiveUnitPromoteMenu, DebuggerMenuItemDraw, StartPromotionNow)
-MenuCommand1(ArenaText, ArenaDesc,NormalText, CallArenaIsUnitAllowed, DebuggerMenuItemDraw, StartArenaNow)
-MenuCommand1(ClearChText,ClearChDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, CallEndEventNow)
+    MenuCommand1(PromoteCommandText, PromoteDesc, NormalText, CanActiveUnitPromoteMenu, DebuggerMenuItemDraw, StartPromotionNow)
+    MenuCommand1(ArenaText, ArenaDesc,NormalText, CallArenaIsUnitAllowed, DebuggerMenuItemDraw, StartArenaNow)
+    MenuCommand1(ClearChText,ClearChDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, CallEndEventNow)
+#endif
 
-#endif 
 MenuCommand1(PageNumText, PageDesc, NormalText, MenuAlwaysEnabled, PageMenuItemDraw, PageIncrementNow) // sprite draw assumes always on the bottom 
+
 #ifdef DEBUG_SKILL_EDIT_INCLUDED 
-//MenuCommand(EditSkillsText,EditSkillsDesc, OrangeText, $04F449,DebuggerMenuItemDraw, SkillDebugCommand_OnSelect)
+    //MenuCommand(EditSkillsText,EditSkillsDesc, OrangeText, $04F449,DebuggerMenuItemDraw, SkillDebugCommand_OnSelect)
 #endif 
-WORD 0 0 0 0 0 0 0 0 0 // terminator 
+
+WORD 0 0 0 0 0 0 0 0 0 // terminator
+
 ALIGN 4 
 gDebuggerMenuItemsPage3: // must be immediately after gDebuggerMenuItemsPage2 
 #ifdef _FE8_ 
-MenuCommand1(SupplyMenuText,SupplyMenuDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, SupplyNow)
-MenuCommand1(ListMenuText,ListMenuDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, ListNow) 
-MenuCommand1(PromoteCommandText, PromoteDesc, NormalText, CanActiveUnitPromoteMenu, DebuggerMenuItemDraw, StartPromotionNow)
-MenuCommand1(ArenaText, ArenaDesc,NormalText, CallArenaIsUnitAllowed, DebuggerMenuItemDraw, StartArenaNow)
-MenuCommand1(AiControlRemainingUnitsText,AiControlRemainingUnitsDesc, NormalText, MenuAlwaysEnabled, AiControlRemainingUnitsDrawText, AiControlRemainingUnitsNow) 
-MenuCommand1(EditAiText,EditAiDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditAiNow)
-MenuCommand1(GfxViewerText,GfxViewerDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, GfxViewerNow) 
-#ifdef VeslyBuildfile 
-MenuCommand1(EditSkillsText,EditSkillsDesc, NormalText, $04F449,DebuggerMenuItemDraw, DebugSkillsNow) // This is external - it is located in skillsystems folders 
+    MenuCommand1(SupplyMenuText,SupplyMenuDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, SupplyNow)
+    MenuCommand1(ListMenuText,ListMenuDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, ListNow) 
+    MenuCommand1(PromoteCommandText, PromoteDesc, NormalText, CanActiveUnitPromoteMenu, DebuggerMenuItemDraw, StartPromotionNow)
+    MenuCommand1(ArenaText, ArenaDesc,NormalText, CallArenaIsUnitAllowed, DebuggerMenuItemDraw, StartArenaNow)
+    MenuCommand1(AiControlRemainingUnitsText,AiControlRemainingUnitsDesc, NormalText, MenuAlwaysEnabled, AiControlRemainingUnitsDrawText, AiControlRemainingUnitsNow) 
+    MenuCommand1(EditAiText,EditAiDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditAiNow)
+    MenuCommand1(GfxViewerText,GfxViewerDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, GfxViewerNow) 
+
+    #ifdef SkillsDebug
+        MenuCommand1(EditSkillsText,EditSkillsDesc, NormalText, $04F449,DebuggerMenuItemDraw, DebugSkillsNow) // This is external - it is located in skillsystems folders 
+    #endif
+
+    #ifdef POKEMBLEM 
+        MenuCommand1(EditSkillsText,EditSkillsDesc, NormalText, $04F449,DebuggerMenuItemDraw, DebugSkillsNow) // This is external - it is located in skillsystems folders 
+    #endif
 #endif 
-#ifdef POKEMBLEM 
-MenuCommand1(EditSkillsText,EditSkillsDesc, NormalText, $04F449,DebuggerMenuItemDraw, DebugSkillsNow) // This is external - it is located in skillsystems folders 
-#endif 
-#endif 
+
 MenuCommand1(PageNumText, PageDesc, NormalText, MenuAlwaysEnabled, PageMenuItemDraw, PageIncrementNow) // sprite draw assumes always on the bottom 
+
 #ifdef DEBUG_SKILL_EDIT_INCLUDED 
-//MenuCommand(EditSkillsText,EditSkillsDesc, OrangeText, $04F449,DebuggerMenuItemDraw, SkillDebugCommand_OnSelect)
-#endif 
+    //MenuCommand(EditSkillsText,EditSkillsDesc, OrangeText, $04F449,DebuggerMenuItemDraw, SkillDebugCommand_OnSelect)
+#endif
+
 WORD 0 0 0 0 0 0 0 0 0 // terminator 
 
 ALIGN 4 
 gDebuggerMenuItemsPage4: // must be immediately after gDebuggerMenuItemsPage3
 #ifdef _FE8_
-MenuCommand1(EditBgmText,EditBgmDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditBgmNow)
+    MenuCommand1(EditBgmText,EditBgmDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditBgmNow)
 #endif
 MenuCommand1(PageNumText, PageDesc, NormalText, MenuAlwaysEnabled, PageMenuItemDraw, PageIncrementNow) // sprite draw assumes always on the bottom 
 WORD 0 0 0 0 0 0 0 0 0 // terminator 
 
 
 #ifndef VeslyBuildfile 
-#ifndef POKEMBLEM
-SkillDebugCommand_OnSelect:
-SHORT $4770 // bx lr 
-#endif 
+    #ifndef POKEMBLEM
+        SkillDebugCommand_OnSelect:
+        SHORT $4770 // bx lr 
+    #endif
 #endif 
 
 
@@ -511,7 +519,8 @@ WORD 0
 #endif 
     #include "Data/FE6_AsmHooks.lyn.event" 
     #include "Data/FE6.lyn.event" 
-#endif 
+#endif
+
 #ifdef _FE7_
 #ifndef GetBGMTrack 
     #define GetBGMTrack 0x8015E9D 

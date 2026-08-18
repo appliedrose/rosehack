@@ -86,5 +86,8 @@ echo Done!
 echo:
 echo Deleting sav..
 del /q *.sav
-
+echo press enter to open the game.
 pause
+
+RoseHack.gba
+

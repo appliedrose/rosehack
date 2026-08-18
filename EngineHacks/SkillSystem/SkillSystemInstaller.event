@@ -15,7 +15,7 @@
 
 #include "RemoveSkillMenu/RemoveSkillMenu.event"
 
-#ifdef __DEBUG__
+#ifdef SkillsDebug
   #include "DebugSkillEdit/DebugSkillEdit.event"
 #endif
 

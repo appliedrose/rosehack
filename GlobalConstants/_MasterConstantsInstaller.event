@@ -1,1 +1,2 @@
 #include "ClassIDs.event"
+#include "Config.event"

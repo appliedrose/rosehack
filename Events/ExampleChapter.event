@@ -53,8 +53,9 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Eirika EirikaLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Franz Cavalier 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, IronLance] NoAI
+UNIT Eirika MaligQueen 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [IronAxe,Fire] NoAI
+UNIT Franz  Trickster 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword,IronBow,Heal,Fire] NoAI
+UNIT Franz  BowThief 0x0 Level(2,Ally,0) [7,9] 0x0 0x0 0x0 0x0 [IronSword,IronBow] NoAI
 UNIT
 
 Enemies:
