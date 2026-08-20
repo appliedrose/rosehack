@@ -1,9 +1,11 @@
-
+//Portraits
 #include "Portraits/Installer.event" 
-
+//Battle Animations
 #include "Anims/Installer.event" 
-
+// Map Sprites: MMS & SMS
 #include "MapSprites/Installer.event"
+// Menu UI tilemaps
+#include "Menus/MenuInstaller.event"
 //#include "ClassCards/Installer.event" 
 /*
 #ifdef _FE8_

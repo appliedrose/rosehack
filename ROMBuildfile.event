@@ -1,8 +1,11 @@
 #ifdef _FE8_
+    //PROTECT 0xA1742C 0xA1744C //for TSA space
+
     #include "EAstdlib.event"
     #include "CustomDefinitions.event"
         
     //PROTECT $25224
+
     ORG FreeSpace
         
         //Text first for Text ID definitions

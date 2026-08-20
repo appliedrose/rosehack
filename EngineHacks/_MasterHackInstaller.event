@@ -233,10 +233,17 @@ POP
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
   // Snek ASM various mechanics (check the snekasm isntaller within to choose whats enabled and whats not!)
-  #include "SnekASM/Installer.event"
+  //#include "SnekASM/Installer.event"
 
   // InGame Debugger menu by Vesly
   {
   #include "Debugger/Installer.event" //scoped for using generic menu names
   } 
 
+  ALIGN 4
+    //MMB
+  #include "ModularMinimugBox/Installers/MMBInstallerDefault.event"
+
+  ALIGN 4
+    //Vesly ASM (check the installer within)
+  // #include "VeslyASM/Installer.event"
