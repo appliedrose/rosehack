@@ -1,0 +1,88 @@
+{
+    "activeFile": "Maps/EggRoom.tmx",
+    "expandedProjectPaths": [
+        "Maps",
+        "TiledStuff"
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 2
+        },
+        "C:/Users/Rosie/Downloads/Map.tmx": {
+            "scale": 1.9079166666666665,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120.02620659532649,
+                "y": 79.93011574579602
+            }
+        },
+        "C:/Users/Rosie/Downloads/Map.tmx#05006E3D": {
+            "scaleInDock": 1
+        },
+        "Maps/Debug2.tmx": {
+            "scale": 1.9079166666666665,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120.02620659532649,
+                "y": 79.93011574579603
+            }
+        },
+        "Maps/Debug2.tmx#../TilesetPreviews/UpdatedVillage": {
+            "scaleInDock": 1
+        },
+        "Maps/EggRoom.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.99999999999999,
+                "y": 54.833333333333314
+            }
+        },
+        "Maps/EggRoom.tmx#05006E3D": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Maps/EggRoom.tmx#EggRoom": {
+            "scaleInEditor": 1
+        },
+        "Maps/RosieTest.tmx": {
+            "scale": 2.53828125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 82.33918128654972,
+                "y": 160.1477377654663
+            }
+        },
+        "Maps/RosieTest.tmx#01000203": {
+            "scaleInDock": 1
+        },
+        "Maps/RosieTest.tmx#EggRoom": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TiledStuff/EggRoom.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 3
+        }
+    },
+    "last.imagePath": "C:/Users/Rosie/Documents/FEProjects/rosehack/Maps/ConfObj",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "openFiles": [
+        "Maps/EggRoom.tmx"
+    ],
+    "project": "rosiemap.tiled-project",
+    "recentFiles": [
+        "Maps/EggRoom.tmx",
+        "C:/Users/Rosie/Downloads/Map.tmx",
+        "Maps/Debug2.tmx",
+        "Maps/RosieTest.tmx",
+        "TiledStuff/EggRoom.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

@@ -2,14 +2,14 @@
 Rosie Test![X]
 
 ##BossRushPlaceholderText
-[MidLeft][LoadCaenis]
+[MidLeft][LoadRyver]
 This is Placeholder Text![N]
 [A]
 [MoveLeft]
 I am not from this game.[N]
 [A][CloseQuote]
-[Right][LoadRyver]
+[Right][LoadDunya]
 I am, though![N]
 [A]
-Here are some boots!
+Here are some items..!
 [A][X]

@@ -89,7 +89,7 @@ This unit must escape last.[X]
 #include "Characters.txt"
 #include "Items.txt"
 #include "ItemDescs.txt"
-#include "ChapterTextInstaller.event"
+#include "_MasterTextInstaller.event"
 
 ## Mov_Text_ID
 Mov[X]

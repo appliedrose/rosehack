@@ -6,9 +6,10 @@
  
 /* 
 //First free SMS is 107
-#define Thief_F_Bow_Alicestand 128 
-#define Trickster_F_StreetHero_Sable_Magestand 129 
-#define Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand 130 
+#define blankstand 128 
+#define Thief_F_Bow_Alicestand 129 
+#define Trickster_F_StreetHero_Sable_Magestand 130 
+#define Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand 131 
  
  
 //First free MMS is 127 and will show up if you've expanded classes.
@@ -24,6 +25,7 @@
 //Copy from here 
 PUSH 
  
+SetSMS(blankstand, 1, blankstand_Data) 
 SetSMS(Thief_F_Bow_Alicestand, 1, Thief_F_Bow_Alicestand_Data) 
 SetSMS(Trickster_F_StreetHero_Sable_Magestand, 1, Trickster_F_StreetHero_Sable_Magestand_Data) 
 SetSMS(Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand, 1, Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand_Data) 
@@ -39,6 +41,10 @@ POP
  
  
 //SMS Image Data 
+ 
+ALIGN 4 
+blankstand_Data: 
+#incbin "dmp/blankstand.dmp" 
  
 ALIGN 4 
 Thief_F_Bow_Alicestand_Data: 

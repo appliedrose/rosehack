@@ -1,2 +1,3 @@
-#define FieldsConf 0x1
-#define UpdatedVillageConf 0x2
+#define EggRoomConf 0x1
+#define FieldsConf 0x2
+#define UpdatedVillageConf 0x3

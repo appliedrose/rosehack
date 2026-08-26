@@ -7,6 +7,7 @@ PUSH
  
 SetSMS(Thief_F_Bow_Alicestand, 0, Thief_F_Bow_Alicestand_Data) 
 SetSMS(Trickster_F_StreetHero_Sable_Magestand, 0, Trickster_F_StreetHero_Sable_Magestand_Data)
+SetSMS(blankstand, 0, blankstand_Data) 
 SetSMS(Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand, 2, Wyvern_Knight_F_Axe_ArcaneEli_Blood_Yikesstand_Data) 
  
  

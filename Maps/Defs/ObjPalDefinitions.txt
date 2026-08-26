@@ -1,4 +1,6 @@
 //Generated. Do not edit!
+EggRoomObj
+EggRoomPal
 FieldsObj
 FieldsPal
 UpdatedVillageObj

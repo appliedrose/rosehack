@@ -4,3 +4,9 @@ Matti[X]
 ## DMatti
 Gets away with too much[N]
 Just too lucky![X]
+
+## NMan
+Man[X]
+## DMan
+Not too important.[N]
+Not too unimportant.[X]

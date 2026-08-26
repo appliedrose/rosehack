@@ -1,0 +1,5 @@
+// Certain weapons defined here cannot break and will refresh at the start of next chapter
+#include "AutoRefreshingWeapons/AutoRefreshingWeapons.event"
+
+// Modular Choice Menues
+#include "LordSplitMenuPlus/LordSplitMenuPlus.event"

@@ -1,3 +1,4 @@
 //Generated. Do not edit!
 Debug2Map
+EggRoomMap
 RosieTestMap

@@ -1,0 +1,13 @@
+## ManGoal
+???[X]
+
+## WellThere
+(Well, there is a man here.)[NL]
+(He offered you something.)[NL][A]
+(You received an Egg.)[NL]
+(Then he needn't be here.)[X]
+## TheresNot
+Well, there's not a man here.[X]
+## GiveEgg
+You Received the EGG [X]
+ 

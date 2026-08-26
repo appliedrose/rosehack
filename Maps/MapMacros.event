@@ -31,11 +31,9 @@
 // to do: test & use these so I don't have to manually type them in the csv lol 
 
 
-#define WaterAnimationID 1 
-#define BeachAnimationID 2 
-#define SeafoamWaterID 3
-#define CeruleanCaveWaterID 4 
-#define UpdatedVillageAnimations 6
+
+#define UpdatedVillageAnimations 1
+#define TreeAnimationID 2
 
 
 
@@ -51,6 +49,7 @@
 // note that opening and closing the Fly Menu (not available indoors) will remove any tile changes that have occurred 
 
 #define Debug2MapChanges 120 
+#define RosieTestMapChanges 121
 
 
 

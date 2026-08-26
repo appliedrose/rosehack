@@ -1,2 +1,3 @@
 #define Debug2Ch 0x0
 #define RosieTestCh 0x1
+#define EggRoomCh 0x2

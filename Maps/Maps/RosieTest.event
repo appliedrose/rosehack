@@ -2,7 +2,17 @@
 
 #include eastdlib.event
 
-SetChapterData(RosieTestCh,FieldsObj,0,FieldsPal,FieldsConf,RosieTestMap,Map,0,0,0)
+SetChapterData(RosieTestCh,FieldsObj,0,FieldsPal,FieldsConf,RosieTestMap,Map,0,0,RosieTestMapChanges)
+MapChangesPointerTable(RosieTestMapChanges, MapChanges)
 Map:
 #incbin "RosieTest_data.dmp"
+
+MapChanges:
+TileMap(0,3,14,1,1,Map_Change_0)
+TileMapEnd
+
+Map_Change_0:
+SHORT 0x80 
+ALIGN 4
+
 Map_Pointer_Table(RosieTestMap,Map)

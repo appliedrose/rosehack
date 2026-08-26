@@ -19,3 +19,6 @@
 {
 #include "RosieTestChapter.event"
 }
+{
+#include "EggRoom.event"
+}

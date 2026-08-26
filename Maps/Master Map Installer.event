@@ -13,5 +13,8 @@
 #include "Maps\Debug2.event"
 }
 {
+#include "Maps\EggRoom.event"
+}
+{
 #include "Maps\RosieTest.event"
 }

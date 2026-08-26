@@ -1,0 +1,4 @@
+//to be automated
+#include "EggRoom/Installer.event"
+
+#include "UpdatedVillage/Installer.event"

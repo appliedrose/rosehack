@@ -1,0 +1,7 @@
+//exploration mode
+
+ALIGN 4
+#include "FreeMovement/cFreeMU/FreeMovement.event"
+#include "FreeMovement/FmuFix/FmuFix.event"
+ALIGN 4
+

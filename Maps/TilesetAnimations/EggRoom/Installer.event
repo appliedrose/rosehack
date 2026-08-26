@@ -1,0 +1,71 @@
+ALIGN 4
+TreeAnimation:
+{ ;
+	ConfAnimsTiles(27,4096,Tree0)
+	ConfAnimsTiles(27,4096,Tree1)
+	ConfAnimsTiles(27,4096,Tree2)
+	ConfAnimsTiles(27,4096,Tree3)
+	ConfAnimsTiles(27,4096,Tree4)
+	ConfAnimsTiles(27,4096,Tree5)
+	ConfAnimsTiles(27,4096,Tree6)
+	ConfAnimsTiles(27,4096,Tree7)
+	ConfAnimsTiles(27,4096,Tree8)
+	ConfAnimsTiles(27,4096,Tree9)
+	ConfAnimsTiles(27,4096,Tree10)
+	ConfAnimsTiles(27,4096,Tree11)
+	ConfAnimsTiles(27,4096,Tree12)
+	ConfAnimsTiles(27,4096,Tree13)
+	ConfAnimsTiles(27,4096,Tree14)
+	ConfAnimsTiles(27,4096,Tree15)
+	WORD 0x00 0x00
+
+	ALIGN 4; 
+	Tree0: #incbin "TreeTile_000.dmp"
+
+	ALIGN 4; 
+	Tree1: #incbin "TreeTile_001.dmp"
+
+	ALIGN 4; 
+	Tree2: #incbin "TreeTile_002.dmp"
+
+	ALIGN 4; 
+	Tree3: #incbin "TreeTile_003.dmp"
+
+	ALIGN 4; 
+	Tree4: #incbin "TreeTile_004.dmp"
+
+	ALIGN 4; 
+	Tree5: #incbin "TreeTile_005.dmp"
+
+	ALIGN 4; 
+	Tree6: #incbin "TreeTile_006.dmp"
+
+	ALIGN 4; 
+	Tree7: #incbin "TreeTile_007.dmp"
+
+	ALIGN 4; 
+	Tree8: #incbin "TreeTile_008.dmp"
+
+	ALIGN 4; 
+	Tree9: #incbin "TreeTile_009.dmp"
+	
+	ALIGN 4; 
+	Tree10: #incbin "TreeTile_010.dmp"
+
+	ALIGN 4; 
+	Tree11: #incbin "TreeTile_011.dmp"
+
+	ALIGN 4; 
+	Tree12: #incbin "TreeTile_012.dmp"
+
+	ALIGN 4; 
+	Tree13: #incbin "TreeTile_013.dmp"
+
+	ALIGN 4; 
+	Tree14: #incbin "TreeTile_014.dmp"
+
+	ALIGN 4; 
+	Tree15: #incbin "TreeTile_015.dmp"
+	
+	
+}

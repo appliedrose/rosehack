@@ -1,9 +1,12 @@
 //Generated. Do not edit!
 
+ObjTypePalettePointerTable(EggRoomPal,EggRoomPalData)
+ObjTypePalettePointerTable(EggRoomObj,EggRoomObjData)
 ObjTypePalettePointerTable(FieldsPal,FieldsPalData)
 ObjTypePalettePointerTable(FieldsObj,FieldsObjData)
 ObjTypePalettePointerTable(UpdatedVillagePal,UpdatedVillagePalData)
 ObjTypePalettePointerTable(UpdatedVillageObj,UpdatedVillageObjData)
+TileConfigPointerTable(EggRoomConf,EggRoomConfData)
 TileConfigPointerTable(FieldsConf,FieldsConfData)
 TileConfigPointerTable(UpdatedVillageConf,UpdatedVillageConfData)
-ALIGN 4FieldsObjData:#incbin "dmp/Fields.dmp"ALIGN 4FieldsPalData:#incbin "dmp/Fields_pal.dmp"ALIGN 4UpdatedVillageObjData:#incbin "dmp/UpdatedVillage.dmp"ALIGN 4UpdatedVillagePalData:#incbin "dmp/UpdatedVillage_pal.dmp"ALIGN 4FieldsConfData:#incbin "dmp/Fields_comp.dmp"ALIGN 4UpdatedVillageConfData:#incbin "dmp/UpdatedVillage_comp.dmp"
+ALIGN 4EggRoomObjData:#incbin "dmp/EggRoom.dmp"ALIGN 4EggRoomPalData:#incbin "dmp/EggRoom_pal.dmp"ALIGN 4FieldsObjData:#incbin "dmp/Fields.dmp"ALIGN 4FieldsPalData:#incbin "dmp/Fields_pal.dmp"ALIGN 4UpdatedVillageObjData:#incbin "dmp/UpdatedVillage.dmp"ALIGN 4UpdatedVillagePalData:#incbin "dmp/UpdatedVillage_pal.dmp"ALIGN 4EggRoomConfData:#incbin "dmp/EggRoom_comp.dmp"ALIGN 4FieldsConfData:#incbin "dmp/Fields_comp.dmp"ALIGN 4UpdatedVillageConfData:#incbin "dmp/UpdatedVillage_comp.dmp"

@@ -1,0 +1,28 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "C:/Users/Rosie/Documents/FEProjects/rosehack/Graphics/Menus/MenuTiles.tsx": {
+            "scaleInDock": 4
+        },
+        "simplestMMB.tmx": {
+            "scale": 3.815833333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 60.01310329766324,
+                "y": 39.965057872898015
+            }
+        }
+    },
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "openFiles": [
+        "simplestMMB.tmx"
+    ],
+    "project": "MMBProj.tiled-project",
+    "recentFiles": [
+        "simplestMMB.tmx"
+    ]
+}

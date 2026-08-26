@@ -1,2 +1,3 @@
 #include "ClassIDs.event"
+#include "SongIDs.event"
 #include "Config.event"

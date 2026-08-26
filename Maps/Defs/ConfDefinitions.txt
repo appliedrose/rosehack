@@ -1,3 +1,4 @@
 //Generated. Do not edit!
+EggRoomConf
 FieldsConf
 UpdatedVillageConf

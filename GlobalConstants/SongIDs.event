@@ -1,0 +1,4 @@
+#define Core_UT 0x4
+#define GraspAtVictory_FE8 0x5
+#define HollowLight_Trails 0x6
+#define MysteryMan 0x7

@@ -1,4 +1,6 @@
-#define FieldsObj 0x1
-#define FieldsPal 0x2
-#define UpdatedVillageObj 0x3
-#define UpdatedVillagePal 0x4
+#define EggRoomObj 0x1
+#define EggRoomPal 0x2
+#define FieldsObj 0x3
+#define FieldsPal 0x4
+#define UpdatedVillageObj 0x5
+#define UpdatedVillagePal 0x6

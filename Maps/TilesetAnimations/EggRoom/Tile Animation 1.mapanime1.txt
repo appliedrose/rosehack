@@ -1,0 +1,17 @@
+//wait	filename
+27	TreeTile_000.png	4096
+27	TreeTile_001.png	4096
+27	TreeTile_002.png	4096
+27	TreeTile_003.png	4096
+27	TreeTile_004.png	4096
+27	TreeTile_005.png	4096
+27	TreeTile_006.png	4096
+27	TreeTile_007.png	4096
+27	TreeTile_008.png	4096
+27	TreeTile_009.png	4096
+27	TreeTile_00A.png	4096
+27	TreeTile_00B.png	4096
+27	TreeTile_00C.png	4096
+27	TreeTile_00D.png	4096
+27	TreeTile_00E.png	4096
+27	TreeTile_00F.png	4096

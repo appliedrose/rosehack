@@ -20,12 +20,11 @@
         //Graphics
         #include "Graphics/GraphicsInstaller.event"
         MESSAGE Used GFX space ends at currentOffset
-
-        #ifdef EphraimLord_Anim
-            MESSAGE WHY NOT A BRILLIANT BOY
-        #endif
+        //tileset?
+        #include "Maps/MapTables.event"
+        
         //CSV tables
-            #include "Tables/StatBoosts.event"
+        #include "Tables/StatBoosts.event"
         #include "Tables/TableInstaller.event"
         MESSAGE Used table space ends at currentOffset
 
@@ -34,9 +33,11 @@
         MESSAGE Used hax space ends at currentOffset
 
         //Maps
-        #include "Maps/MapTables.event"
         #include "Maps/Master Map Installer.event" //NO SPACESS!!!
 
+        //Music
+        #include "Music/Installer.event"
+        MESSAGE Music data ends at CURRENTOFFSET
         
 
         //Events

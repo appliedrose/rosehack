@@ -232,6 +232,9 @@ POP
   // Save/Suspend Expansion
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
+  // Mokha stuffs (probably in C)
+  #include "MokhaASM/Installer.event"
+
   // Snek ASM various mechanics (check the snekasm isntaller within to choose whats enabled and whats not!)
   //#include "SnekASM/Installer.event"
 
@@ -247,3 +250,7 @@ POP
   ALIGN 4
     //Vesly ASM (check the installer within)
   // #include "VeslyASM/Installer.event"
+
+  // GigaExcalibur ASM (As usual check the installer for details!)
+  #include "GigaExcaliburASM/Installer.event"
+

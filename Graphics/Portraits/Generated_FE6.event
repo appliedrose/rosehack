@@ -1,19 +1,19 @@
 //Generated! Do not edit!
 
 PUSH
-MugEntry(CaenisMug, CaenisMugData, CaenisMinimugData, CaenisPaletteData,  3, 5, 3, 3)
+MugEntry(DunyaMug, DunyaMugData, DunyaMinimugData, DunyaPaletteData,  3, 5, 3, 3)
 MugEntry(RyverMug, RyverMugData, RyverMinimugData, RyverPaletteData,  4, 5, 4, 3)
 POP
 
 
 ALIGN 4
-CaenisMugData:
-#incbin "png/Caenis/Caenis_portrait_frames_fe6.dmp"
+DunyaMugData:
+#incbin "png/Dunya/Dunya_portrait_frames_fe6.dmp"
 ALIGN 4
-CaenisPaletteData:
-#incbin "png/Caenis/Caenis_palette.dmp"
-CaenisMinimugData:
-#incbin "png/Caenis/Caenis_minimugfe6.dmp"
+DunyaPaletteData:
+#incbin "png/Dunya/Dunya_palette.dmp"
+DunyaMinimugData:
+#incbin "png/Dunya/Dunya_minimugfe6.dmp"
 
 ALIGN 4
 RyverMugData:
