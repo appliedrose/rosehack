@@ -232,16 +232,19 @@ POP
   // Save/Suspend Expansion
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
-  // Mokha stuffs (probably in C)
-  #include "MokhaASM/Installer.event"
-
-  // Snek ASM various mechanics (check the snekasm isntaller within to choose whats enabled and whats not!)
-  //#include "SnekASM/Installer.event"
 
   // InGame Debugger menu by Vesly
   {
   #include "Debugger/Installer.event" //scoped for using generic menu names
-  } 
+  }
+
+  // Mokha stuffs (probably in C)
+  #include "MokhaASM/Installer.event"
+
+  // Snek ASM various mechanics (check the snekasm isntaller within to choose whats enabled and whats not!)
+  #include "SnekASM/Installer.event"
+
+   
 
   ALIGN 4
     //MMB

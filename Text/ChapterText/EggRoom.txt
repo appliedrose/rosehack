@@ -2,12 +2,17 @@
 ???[X]
 
 ## WellThere
-(Well, there is a man here.)[NL]
-(He offered you something.)[NL][A]
-(You received an Egg.)[NL]
-(Then he needn't be here.)[X]
+[OpenFarFarLeft][LoadFace][0x01][0x01]
+(Well,[A] there is a [....] man here.)[NL][A]
+
+(He[....] offered you.[....].[....] something.)[NL][A][X]
+
+
 ## TheresNot
-Well, there's not a man here.[X]
+
+Well,[A] there's not[NL][A] a man here.[A][X]
+
 ## GiveEgg
+
 You Received the EGG [X]
  

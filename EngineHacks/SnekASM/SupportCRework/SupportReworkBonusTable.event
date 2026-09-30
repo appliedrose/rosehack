@@ -9,6 +9,11 @@
 	#define entry(char1,char2) "ORG CURRENTOFFSET + (2 + 7 * 6) ; PUSH ; BYTE char1 char2 ; POP" // Don't touch these.
 	#define support(level,atk,def,hit,avd,crt,dge) "PUSH ; ORG CURRENTOFFSET + (2 + level * 6) ; BYTE atk def hit avd crt dge ; POP"
 	
+
+	entry(Eirika,Franz) // Example bonus entries.
+		support(CSupport,0,1,5,10,0,0)
+		support(BSupport,0,1,5,10,0,0)
+		support(ASupport,0,2,10,10,0,5)
 	// Your new entries go in here. As many as you like. This is non-indexed.
 	/*entry(Arc,Luke) // Example bonus entries.
 		support(CSupport,0,1,5,10,0,0)

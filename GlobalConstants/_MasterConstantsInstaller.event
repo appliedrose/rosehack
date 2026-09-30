@@ -1,3 +1,5 @@
 #include "ClassIDs.event"
 #include "SongIDs.event"
 #include "Config.event"
+// event macros and the like
+#include "EventDefs.event"

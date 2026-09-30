@@ -220,9 +220,8 @@ gDebuggerMenuItemsPage3: // must be immediately after gDebuggerMenuItemsPage2
     MenuCommand1(EditAiText,EditAiDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, EditAiNow)
     MenuCommand1(GfxViewerText,GfxViewerDesc, NormalText, MenuAlwaysEnabled, DebuggerMenuItemDraw, GfxViewerNow) 
 
-    #ifdef SkillsDebug
-        MenuCommand1(EditSkillsText,EditSkillsDesc, NormalText, $04F449,DebuggerMenuItemDraw, DebugSkillsNow) // This is external - it is located in skillsystems folders 
-    #endif
+    MenuCommand1(EditSkillsText,EditSkillsDesc, NormalText, $04F449,DebuggerMenuItemDraw, DebugSkillsNow) // This is external - it is located in skillsystems folders 
+    
 
     #ifdef POKEMBLEM 
         MenuCommand1(EditSkillsText,EditSkillsDesc, NormalText, $04F449,DebuggerMenuItemDraw, DebugSkillsNow) // This is external - it is located in skillsystems folders 

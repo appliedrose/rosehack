@@ -1,2 +1,5 @@
 //Chapter-Specific Dialogue
 #include "ChapterText/ChapterTextInstaller.event"
+
+//Misc Text Entries
+#include "MiscText/Installer.event"

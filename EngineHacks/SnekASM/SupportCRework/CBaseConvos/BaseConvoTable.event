@@ -13,6 +13,12 @@
 	#include "ConvoTableDefs.event"
 	PUSH
 
+	Chapter(RosieTestCh)
+		Entry
+			bg(0x2)
+			text(BossRushPlaceholderText)
+			baseSupport(Eirika,Franz,CSupport)
+			eventID(0x10)
 	/*Chapter(MilitaryAccept3) // Here are a couple example generic base support convos.
 		Entry
 			bg(0x18)

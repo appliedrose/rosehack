@@ -1,0 +1,11 @@
+## YesOption
+Yes[X]
+## NoOption
+No[X]
+## UnknownOption
+???[X]
+
+## DYouKnow
+Oh, you know..[X]
+## DDontThink
+Don't think about it.[X]

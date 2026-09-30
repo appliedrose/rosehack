@@ -55,6 +55,7 @@ ALIGN 4
 
 Units:
 UNIT Eirika EirikaLord 0x0 Level(1,Ally,0) [8,17] 0x0 0x0 0x0 0x0 [Rapier,IronSword,IronAxe] NoAI
+UNIT Franz  Trickster 0x0 Level(2,Ally,0) [8,18] 0x0 0x0 0x0 0x0 [IronSword,IronBow,Heal,Fire] NoAI
 
 UNIT
 
@@ -69,6 +70,8 @@ LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies
 ENUN
+
+GotoPrepScreen
 ENDA
 
 EndingScene:

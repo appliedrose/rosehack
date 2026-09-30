@@ -9,9 +9,9 @@
 27	TreeTile_007.png	4096
 27	TreeTile_008.png	4096
 27	TreeTile_009.png	4096
-27	TreeTile_00A.png	4096
-27	TreeTile_00B.png	4096
-27	TreeTile_00C.png	4096
-27	TreeTile_00D.png	4096
-27	TreeTile_00E.png	4096
-27	TreeTile_00F.png	4096
+27	TreeTile_010.png	4096
+27	TreeTile_011.png	4096
+27	TreeTile_012.png	4096
+27	TreeTile_013.png	4096
+27	TreeTile_014.png	4096
+27	TreeTile_015.png	4096

@@ -1,0 +1,9 @@
+#define GiveItem(item) "SMOV 0x3 item; GIVEITEMTO 0xFFFF;"
+
+#define GiveItem(item,character) "SMOV 0x3 item; GIVEITEMTO character;"
+
+#define NarrationText(textid) "SVAL 0xB 0x00B4FFFF; TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND;"
+
+#define SilentKillUnit(unit) "DISA_IF unit; DISA unit"
+
+#define EndEvent "EVBIT_T 0x7; ENDA"

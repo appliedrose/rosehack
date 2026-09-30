@@ -31,7 +31,7 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-
+CharacterEventBothWays(0x8,ManDialogue,Eirika,0xA5)
 END_MAIN
 
 LocationBasedEvents:
@@ -58,7 +58,7 @@ UNIT Eirika EirikaLord 0x0 Level(1,Ally,0) [7,9] 0x0 0x0 0x0 0x0 [Rapier,IronSwo
 UNIT
 
 Enemies:
-UNIT 0xA5 0x77 0x0 Level(6,NPC,0) [7,5] 0x0 0x0 0x0 0x0 [SecretBook] NoAI
+UNIT 0xA5 0x77 0x0 Level(6,NPC,0) [7,4] 0x0 0x0 0x0 0x0 [SecretBook] NoAI
 UNIT
 
 ALIGN 4
@@ -72,6 +72,15 @@ ENUN
 EnableFreeMovement
 
 ENDA
+
+
+ManDialogue:
+NarrationText(WellThere)
+CallMenu(ManMenu)
+GiveItem(SecretBook)
+NarrationText(TheresNot)
+SilentKillUnit(0xA5)
+EndEvent
 
 EndingScene:
 //MNC2 EggRoomCh

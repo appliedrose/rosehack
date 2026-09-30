@@ -13,6 +13,17 @@
 	BYTE 0x0E 0x20 0x20 0x56
 	POP
 
+	// Skip the magvel lore dump at the start of a new save file
+
+	#ifdef SkipVanillaPrologueLoreDump
+		PUSH
+			ORG $A39768
+			EVBIT_MODIFY 0x1
+			SKIPWN
+			ENDA
+		POP
+	#endif
+
 {
 #include "ExampleChapter.event"
 }

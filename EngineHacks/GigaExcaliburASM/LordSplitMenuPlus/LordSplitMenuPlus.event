@@ -10,6 +10,10 @@
 // CallMenu() calls that choice menu in events
 
 
+
+
+
+//Example
 ALIGN 4
 ExampleMenu:
 MenuDefinition(6, 8, 18, 0, 1, ExampleMenuOptions)
@@ -18,6 +22,18 @@ ALIGN 4
 ExampleMenuOptions:
 MenuOption(0xC15, 0xC16, 0)
 MenuOption(0xC16, 0xC15, 0x11)
+MenuTerminator
+
+
+//Mysterious Menu
+ALIGN 4
+ManMenu:
+MenuDefinition(6,8, 18,0, 1,ManMenuOptions)
+
+ALIGN 4
+ManMenuOptions:
+MenuOption(YesOption,DYouKnow,0x9)
+MenuOption(NoOption,DDontThink,0x11)
 MenuTerminator
 
 

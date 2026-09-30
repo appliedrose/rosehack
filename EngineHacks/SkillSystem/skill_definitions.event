@@ -990,7 +990,7 @@
 
 //Corrosion: Decrease durability of enemy's weapon by User's level (Skill/2 % activation)
 //By Sme
-#define CorrosionID 22
+#define CorrosionID 255
 
 //Glacies: Add unit's Resistance to damage dealt. (Skill % activation)
 //By Sme
@@ -1263,7 +1263,7 @@
 
 //Goddess Dance: When used, all adjacent allied units can move again.
 //By Jester
-#define GoddessDanceID 255
+#define GoddessDanceID 22
 
 //Detonate: Destroy equipped weapon to deal remaining uses as damage
 //By Jester
